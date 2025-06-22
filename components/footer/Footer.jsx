@@ -10,7 +10,7 @@ import {
 import Social from "../social/Social";
 import footer_Illu_left from "/public/images/footer-Illu-left.png";
 import footer_Illu_right from "/public/images/footer-Illu-right.png";
-import Logo from "/public/images/logo.png";
+import Logo from "/public/images/logo.svg";
 
 const Footer = () => {
   return (
