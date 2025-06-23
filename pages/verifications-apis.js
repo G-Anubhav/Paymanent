@@ -1,4 +1,4 @@
-import AboutBusiness from "../components/businessLoan/AboutBusiness";
+import AboutService from "../components/verificationsApis/AboutService";
 import ApplyForLoan from "../components/businessLoan/ApplyForLoan";
 import Banner from "../components/verificationsApis/Banner";
 import Counter from "../components/businessLoan/Counter";
@@ -20,7 +20,7 @@ export default function ConnectedBanking() {
   return (
     <>
       <Banner />
-      <AboutBusiness />
+      <AboutService />
       <ServiceIntro {...data} />
       <Features />
       <CreditHistory />

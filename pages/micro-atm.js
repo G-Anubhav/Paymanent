@@ -1,4 +1,4 @@
-import AboutBusiness from "../components/businessLoan/AboutBusiness";
+import AboutService from "../components/microAtm/AboutService";
 import ApplyForLoan from "../components/businessLoan/ApplyForLoan";
 import Banner from "../components/microAtm/Banner";
 import Counter from "../components/businessLoan/Counter";
@@ -20,7 +20,7 @@ export default function MicroAtms() {
   return (
     <>
       <Banner />
-      <AboutBusiness />
+      <AboutService />
       <ServiceIntro {...data} />
       <Features />
       <CreditHistory />

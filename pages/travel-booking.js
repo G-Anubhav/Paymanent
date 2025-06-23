@@ -1,4 +1,4 @@
-import AboutBusiness from "../components/businessLoan/AboutBusiness";
+import AboutService from "../components/travelBooking/AboutService";
 import ApplyForLoan from "../components/businessLoan/ApplyForLoan";
 import Banner from "../components/travelBooking/Banner";
 import Counter from "../components/businessLoan/Counter";
@@ -20,7 +20,7 @@ export default function TravelBooking() {
   return (
     <>
       <Banner />
-      <AboutBusiness />
+      <AboutService />
       <ServiceIntro {...data} />
       <Features />
       <CreditHistory />

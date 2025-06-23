@@ -1,4 +1,4 @@
-import AboutBusiness from "../components/businessLoan/AboutBusiness";
+import AboutService from "../components/aadhaarBanking/AboutService";
 import ApplyForLoan from "../components/businessLoan/ApplyForLoan";
 import Banner from "../components/aadhaarBanking/Banner";
 import Counter from "../components/businessLoan/Counter";
@@ -20,7 +20,7 @@ export default function ConnectedBanking() {
   return (
     <>
       <Banner />
-      <AboutBusiness />
+      <AboutService />
       <ServiceIntro {...data} />
       <Features />
       <CreditHistory />
