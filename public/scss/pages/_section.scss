@@ -3166,6 +3166,65 @@
   }
 }
 
+// Services Intro
+.service-intro {
+  background-color: #121212;
+  padding: 80px 0 40px;
+  .intro-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .intro-content {
+    padding-left: 30px;
+    .subtitle {
+      text-transform: uppercase;
+      color: var(--accent-color);
+      font-size: 14px;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+    .title {
+      color: var(--body-color);
+        margin-bottom: 20px;
+    }
+    .description {
+      font-size: 16px;
+      color: #ccc;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    .bullet-list {
+      list-style: none;
+      padding: 0;
+      li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 12px;
+        font-size: 16px;
+        color: #ddd;
+
+        .icon {
+          color: #2c6eff;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .intro-image img {
+      width: 50%;
+      display: block;  
+      margin: 0 auto;   
+    }
+    .intro-content {
+      padding-left: 0;
+      margin-top: 30px;
+    }
+  }
+}
+
 // Our Products
 .our-products {
   .content-area {

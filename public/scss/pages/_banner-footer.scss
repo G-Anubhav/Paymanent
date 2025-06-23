@@ -324,6 +324,19 @@
     }
   }
 
+  &.aadhaar-banking {
+    .overlay {
+      background-image: url(/images/business1-banner.png);
+      background-repeat: no-repeat;
+      background-position: right 50px center;
+      background-position-y: 63%;
+
+      .banner-content {
+        padding: 307px 0 170px;
+      }
+    }
+  }
+
   &.car-loans {
     .overlay {
       background-image: url(/images/car-banner.png);

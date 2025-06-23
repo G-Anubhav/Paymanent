@@ -11,10 +11,10 @@ const NetWork = () => {
               <div className="section-header text-center">
                 <h5 className="sub-title">Feautres</h5>
                 <h2 className="title">
-                  Beloved API Banking Platform.
+                  Smarter, Unified Banking Experience.
                 </h2>
                 <p>
-                  Crafted for ease of understanding, seamless implementation, and iterative development, our modern API banking stack prioritizes reliability and scalability at its core.
+                  Effortlessly link, manage, and operate across multiple bank accounts—seamlessly and securely.
                 </p>
               </div>
             </div>

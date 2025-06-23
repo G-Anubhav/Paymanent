@@ -90,13 +90,13 @@ export const navData = [
       },
       {
         id: "du@07",
-        dp_itm: "Aadhar Banking",
-        url: "/aadhar-banking",
+        dp_itm: "Aadhaar Banking",
+        url: "/aadhaar-banking",
       },
       {
         id: "du@08",
         dp_itm: "Verifications APIs",
-        url: "/verification-apis",
+        url: "/verifications-apis",
       },
     ],
   },

@@ -3,21 +3,26 @@ import ApplyForLoan from "../components/businessLoan/ApplyForLoan";
 import Banner from "../components/microAtm/Banner";
 import Counter from "../components/businessLoan/Counter";
 import HowItWorks from "../components/businessLoan/HowItWorks";
+import ServiceIntro from "../components/common/ServiceIntro";
 import GetInTouch from "../components/contact/GetInTouch";
 import CreditHistory from "../components/personalLoan/CreditHistory";
-import NetWork from "../components/connectedBanking/NetWork";
+import Features from "../components/microAtm/NetWork";
 import Testimonials from "../components/home/Testimonials";
 import LatestArticles from "../components/home/LatestArticles";
 import Loan from "../components/businessLoan/Loan";
 import SecurityArea from "../components/businessLoan/SecurityArea";
 import Faq from "../components/faq/Faq";
+import serviceIntroData from "../data/serviceIntroData";
 
-export default function ConnectedBanking() {
+const data = serviceIntroData.microAtm;
+
+export default function MicroAtms() {
   return (
     <>
       <Banner />
       <AboutBusiness />
-      <NetWork />
+      <ServiceIntro {...data} />
+      <Features />
       <CreditHistory />
       <HowItWorks />
       <Counter />
