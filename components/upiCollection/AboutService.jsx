@@ -7,14 +7,14 @@ const AboutService = () => {
   return (
     <AboutLoan
       img={about_business_loan_Illus}
-      btnText="Get Started with Connected Banking"
+      btnText="Start UPI Collection"
       link="/contact"
     >
       <div className="section-text">
         <h5 className="sub-title">
-          Integrated banking made easy
+          Real-time payments, real simple
         </h5>
-        <h3 className="title">Manage Multiple Bank Accounts From a Single Dashboard</h3>
+        <h3 className="title">Collect Payments Instantly with UPI</h3>
         <p>
           Collect payments instantly using UPI links or QR codes with real-time tracking and seamless integration.
         </p>
@@ -23,19 +23,19 @@ const AboutService = () => {
             <span className="check d-flex align-items-center justify-content-center">
               <Image src={check} alt="icon" />
             </span>
-            <span>Instantly link accounts across major Indian banks</span>
+            <span>Instant payment receipts</span>
           </li>
           <li className="list-item d-flex align-items-center ">
             <span className="check d-flex align-items-center justify-content-center">
               <Image src={check} alt="icon" />
             </span>
-            <span>Auto-reconciliation with smart insights</span>
+            <span>Branded UPI handles and QR codes</span>
           </li>
           <li className="list-item d-flex align-items-center ">
             <span className="check d-flex align-items-center justify-content-center">
               <Image src={check} alt="icon" />
             </span>
-            <span>Role-based access and real-time alerts</span>
+            <span>Easy integration via UPI APIs</span>
           </li>
         </ul>
       </div>

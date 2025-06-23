@@ -7,14 +7,14 @@ const AboutService = () => {
   return (
     <AboutLoan
       img={about_business_loan_Illus}
-      btnText="Get Started with Connected Banking"
+      btnText="Book Travel with Paymanent"
       link="/contact"
     >
       <div className="section-text">
         <h5 className="sub-title">
-          Integrated banking made easy
+          Smarter business travel
         </h5>
-        <h3 className="title">Manage Multiple Bank Accounts From a Single Dashboard</h3>
+        <h3 className="title">Book Flights & Bus Tickets Instantly</h3>
         <p>
           Book bus and flight tickets in real time and earn commissions—perfect for agents and businesses.
         </p>
@@ -23,19 +23,19 @@ const AboutService = () => {
             <span className="check d-flex align-items-center justify-content-center">
               <Image src={check} alt="icon" />
             </span>
-            <span>Instantly link accounts across major Indian banks</span>
+            <span>Real-time ticket availability & confirmation</span>
           </li>
           <li className="list-item d-flex align-items-center ">
             <span className="check d-flex align-items-center justify-content-center">
               <Image src={check} alt="icon" />
             </span>
-            <span>Auto-reconciliation with smart insights</span>
+            <span>Commission on every booking</span>
           </li>
           <li className="list-item d-flex align-items-center ">
             <span className="check d-flex align-items-center justify-content-center">
               <Image src={check} alt="icon" />
             </span>
-            <span>Role-based access and real-time alerts</span>
+            <span>Simple UI with API integration</span>
           </li>
         </ul>
       </div>

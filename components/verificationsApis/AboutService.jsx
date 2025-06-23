@@ -7,7 +7,7 @@ const AboutService = () => {
   return (
     <AboutLoan
       img={about_business_loan_Illus}
-      btnText="Get Started with Connected Banking"
+      btnText="Integrate Verifications Now"
       link="/contact"
     >
       <div className="section-text">
@@ -23,19 +23,19 @@ const AboutService = () => {
             <span className="check d-flex align-items-center justify-content-center">
               <Image src={check} alt="icon" />
             </span>
-            <span>Instantly link accounts across major Indian banks</span>
+            <span>PAN, Aadhaar, GSTIN & Bank Account checks</span>
           </li>
           <li className="list-item d-flex align-items-center ">
             <span className="check d-flex align-items-center justify-content-center">
               <Image src={check} alt="icon" />
             </span>
-            <span>Auto-reconciliation with smart insights</span>
+            <span>Fast & secure with enterprise-grade APIs</span>
           </li>
           <li className="list-item d-flex align-items-center ">
             <span className="check d-flex align-items-center justify-content-center">
               <Image src={check} alt="icon" />
             </span>
-            <span>Role-based access and real-time alerts</span>
+            <span>Easy integration into your platform</span>
           </li>
         </ul>
       </div>
