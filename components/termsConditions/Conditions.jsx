@@ -19,7 +19,7 @@ const Conditions = () => {
                 <p>
                   These Terms and Conditions (the "Terms") govern your use of the website https://www.paymanent.in (the "Website") and any related pages, APIs, features, content, or application services (including but not limited to mobile applications or mobile versions of the website), all of which are owned and operated by F6 IT Service Private Limited, the parent company of Paymanent. Throughout these Terms, references to “Company,” “we,” “us,” or “our” shall mean F6 IT Service Private Limited, and “you,” “your,” “user,” or “merchant” shall mean any person or legal entity accessing or using our platform, whether registered or unregistered.
                 </p>
-                <p>
+                {/* <p>
                   "Applicable Laws" refer to:
                 </p>
                 <ul>
@@ -210,7 +210,7 @@ const Conditions = () => {
                       tristique dui pharetra elit aliquet morbi.
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
