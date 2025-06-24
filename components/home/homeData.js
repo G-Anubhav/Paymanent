@@ -10,6 +10,11 @@ import tab_card_44 from "/public/images/icon/tab-card-44.png";
 import business from "/public/images/icon/business.png";
 import checking from "/public/images/icon/checking.png";
 import savings from "/public/images/icon/savings.png";
+import travel from "/public/images/icon/loan-2.png";
+import microAtms from "/public/images/icon/how-works-affiliate-3.png"
+import aadhaar from "/public/images/icon/how-works-affiliate-2.png"
+import verify from "/public/images/icon/how-works-affiliate-1.png"
+import instant from "/public/images/icon/how-works-4.png"
 
 import blog_1 from "/public/images/blog-1.png";
 import blog_2 from "/public/images/blog-2.png";
@@ -71,35 +76,35 @@ export const business_solutions_data = [
   {
     id: 4,
     title: "Micro ATM",
-    icon: business,
+    icon: microAtms,
     desc: "Turn your outlet into a mini ATM offering withdrawals, balance checks, and commission-based services.",
     link: "/micro-atm",
   },
   {
     id: 5,
     title: "Instant Payouts",
-    icon: business,
+    icon: instant,
     desc: "Disburse funds instantly to anyone via UPI, IMPS, or NEFT with complete tracking and automation.",
     link: "/instant-payouts",
   },
   {
     id: 6,
     title: "Travel Booking",
-    icon: business,
+    icon: travel,
     desc: "Book bus and flight tickets in real time and earn commissions—perfect for agents and businesses.",
     link: "/travel-booking",
   },
   {
     id: 7,
-    title: "Aadhar Banking",
-    icon: business,
+    title: "Aadhaar Banking",
+    icon: aadhaar,
     desc: "Offer AEPS services like withdrawals and balance checks using Aadhaar and biometric verification.",
     link: "/aadhaar-banking",
   },
   {
     id: 8,
     title: "Verifications APIs",
-    icon: business,
+    icon: verify,
     desc: "Verify PAN, Aadhaar, GST, bank accounts, and more instantly with secure, ready-to-use APIs.",
     link: "/verifications-apis",
   },
