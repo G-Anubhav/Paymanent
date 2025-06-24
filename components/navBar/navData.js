@@ -126,6 +126,16 @@ export const navData = [
         dp_itm: "Careers",
         url: "/career-single",
       },
+      {
+        id: "du@05s",
+        dp_itm: "Privacy Policy",
+        url: "/privacy-policy",
+      },
+      {
+        id: "du@06s",
+        dp_itm: "Terms & Conditions",
+        url: "/terms-conditions",
+      },
     ],
   },
   // {

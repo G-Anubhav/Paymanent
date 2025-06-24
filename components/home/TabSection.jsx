@@ -40,29 +40,6 @@ const TabSection = () => {
     const [activeIndex, setActiveIndex] = useState(0);
 
     return (
-        // <div className="tab-section">
-        //   <div className="tab-list">
-        //     {tabs.map((tab, index) => (
-        //       <button
-        //         key={index}
-        //         className={`tab ${activeIndex === index ? "active" : ""}`}
-        //         onClick={() => setActiveIndex(index)}
-        //       >
-        //         {tab.label}
-        //       </button>
-        //     ))}
-        //   </div>
-
-        //   <div className="tab-content">
-        //     <div className="image-box">
-        //       <img src={tabs[activeIndex].image} alt={tabs[activeIndex].title} />
-        //     </div>
-        //     <div className="content-box">
-        //       <h3>{tabs[activeIndex].title}</h3>
-        //       <p>{tabs[activeIndex].description}</p>
-        //     </div>
-        //   </div>
-        // </div>
         <section className="account-feature loan-feature">
             <div className="overlay pt-120 pb-120">
                 <div className="container wow fadeInUp">
