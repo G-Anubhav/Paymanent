@@ -10,13 +10,11 @@ const Benefits = () => {
             <div className="col-lg-8">
               <div className="section-header text-center">
                 <h5 className="sub-title">
-                  Why Bankio is a great financing option for you.
+                  Why Paymanent is a smart payment partner for your business.
                 </h5>
-                <h2 className="title">Great benefits from Bankio</h2>
+                <h2 className="title">Powerful Benefits with Every Transaction</h2>
                 <p>
-                  Bankio CarLoan offers you the freedom to choose any vehicle on
-                  a fixed mark-up rate facility to suit your personal
-                  requirements​
+                  From instant settlements to seamless API integrations, Paymanent gives your business the flexibility and control it needs to grow fast, secure, and scalable.
                 </p>
               </div>
             </div>

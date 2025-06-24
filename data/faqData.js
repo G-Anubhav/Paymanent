@@ -1,39 +1,51 @@
 const faqData = [
   {
     id: 1,
-    question: "How do I locate the nearesty branch or ATM?",
+    question: "How do I open a business account with Paymanent?",
     answer:
-      "If your card is missing, let us know immediately. We’ll block your card right away send over a new one on the same day.To report a lost or stolen card, call us at (406) 555-0120.",
+      "You can open your account entirely online in just a few minutes. Provide your business details, verify KYC, and you're ready to go.",
   },
   {
     id: 2,
-    question: "What do I do if I lose my card or it gets stolen?",
+    question: "Are there any hidden charges or fees?",
     answer:
-      "If your card is missing, let us know immediately. We’ll block your card right away send over a new one on the same day.To report a lost or stolen card, call us at (406) 555-0120.",
+      "No, Paymanent offers transparent pricing with no hidden fees. All charges are clearly listed upfront before you proceed with any service.",
   },
   {
     id: 3,
-    question: "What is your customer service number?",
+    question: "How secure is Paymanent's platform?",
     answer:
-      "If your card is missing, let us know immediately. We’ll block your card right away send over a new one on the same day.To report a lost or stolen card, call us at (406) 555-0120.",
+      "We use end-to-end encryption, secure APIs, and follow strict compliance measures including RBI guidelines to protect your data and transactions.",
   },
   {
     id: 4,
-    question: "How do I reset my pin?",
+    question: "Can I send instant payouts 24×7?",
     answer:
-      "If your card is missing, let us know immediately. We’ll block your card right away send over a new one on the same day.To report a lost or stolen card, call us at (406) 555-0120.",
+      "Yes, our Instant Payouts service allows you to send money anytime—24×7—including weekends and holidays via UPI, IMPS, and more.",
   },
   {
     id: 5,
-    question: "What is required to use Digital Banking?",
+    question: "How can I use Paymanent’s verification APIs?",
     answer:
-      "If your card is missing, let us know immediately. We’ll block your card right away send over a new one on the same day.To report a lost or stolen card, call us at (406) 555-0120.",
+      "Our verification APIs for PAN, Aadhaar, GSTIN, and bank accounts can be integrated into your systems with simple API keys and documentation.",
   },
   {
     id: 6,
-    question: "Is digital banking secure?",
+    question: "What services does Paymanent offer?",
     answer:
-      "If your card is missing, let us know immediately. We’ll block your card right away send over a new one on the same day.To report a lost or stolen card, call us at (406) 555-0120.",
+      "We provide connected banking, utility payments, UPI collection, micro ATM, instant payouts, Aadhaar banking, travel bookings, and verification APIs.",
+  },
+  {
+    id: 7,
+    question: "Do I need technical knowledge to use the platform?",
+    answer:
+      "Not at all. Our platform is built with a user-friendly interface for non-tech users, and we offer developer APIs for businesses that want integrations.",
+  },
+  {
+    id: 8,
+    question: "Is customer support available 24×7?",
+    answer:
+      "Yes, our customer support team is available 24×7 to help with any queries or issues you may have.",
   },
 ];
 

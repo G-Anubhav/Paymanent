@@ -14,7 +14,7 @@ const BusinessSolutions = () => {
                 </h5>
                 <h2 className="title">Solutions for Every Business Need.</h2>
                 <p>
-                  Discover a robust suite of dSimplify payments, collections, and compliance with our secure and scalable banking infrastructure.
+                  Discover a robust suite of Simplify payments, collections, and compliance with our secure and scalable banking infrastructure.
                 </p>
               </div>
             </div>

@@ -12,30 +12,29 @@ const AboutBusiness = () => {
       img={feature_item_2}
     >
       <div className="section-text">
-        <h5 className="sub-title">Varied offers for boundless ambitions</h5>
-        <h2 className="title">Educations loans for everyone</h2>
+        <h5 className="sub-title">Seamless Payments, Built for Businesses</h5>
+        <h2 className="title">Your All-in-One Platform for Digital Finance</h2>
         <p>
-          Make the smart choice. Get education loan offers at great interest
-          rates
+          Paymanent streamlines your business payments, collections, and compliance through one secure, scalable platform.
         </p>
         <ul className="list">
           <li className="list-item d-flex align-items-center">
             <span className="check d-flex align-items-center justify-content-center">
               <Image src={check} alt="icon" />
             </span>
-            <span>No SSN or credit history required</span>
+            <span>Open a business account 100% online</span>
           </li>
           <li className="list-item d-flex align-items-center ">
             <span className="check d-flex align-items-center justify-content-center">
               <Image src={check} alt="icon" />
             </span>
-            <span>Checking for rate won&#39;t impact credit score</span>
+            <span>Enable instant payouts via UPI, IMPS, and more</span>
           </li>
           <li className="list-item d-flex align-items-center ">
             <span className="check d-flex align-items-center justify-content-center">
               <Image src={check} alt="icon" />
             </span>
-            <span>No prepayment fees</span>
+            <span>No hidden fees or setup costs</span>
           </li>
         </ul>
       </div>

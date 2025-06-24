@@ -6,33 +6,33 @@ const tabs = [
     {
         label: "AePs",
         image: "/images/aeps.png",
-        title: "AePs Service",
-        description: "Aadhar Enabled Payment System for easy access to banking services. Aadhar Enabled Payment System for easy access to banking services. Aadhar Enabled Payment System for easy access to banking services. Aadhar Enabled Payment System for easy access to banking services.",
+        title: "Aadhaar Enabled Payment System",
+        description: "Empowering Access. Simplifying Transactions.Paymanent’s AEPS solution delivers secure, Aadhaar-authenticated banking services—enabling seamless cash withdrawals, balance inquiries, and fund transfers without a debit card. Designed for reliability and reach, our platform redefines financial access with frictionless, real-time service tailored to evolving user needs.",
     },
     {
         label: "Utility Payment",
         image: "/images/utility.png",
-        title: "Utility Payment",
-        description: "Pay your utility bills seamlessly and securely. Pay your utility bills seamlessly and securely. Pay your utility bills seamlessly and securely. Pay your utility bills seamlessly and securely. Pay your utility bills seamlessly and securely.",
+        title: "Smart Bill Payment Gateway",
+        description: "Simplified Billing. Unified Platform.  Paymanent’s BBPS service offers a secure, integrated solution for hassle-free bill payments. From utilities to recharges, manage all your payments in one place—swiftly, reliably, and with complete transparency. Experience the ease of streamlined financial control with Paymanent.",
     },
     {
         label: "Payment Collect",
         image: "/images/payment.png",
-        title: "Dynamic & Static QR",
+        title: " QR Code Payment Suite",
         description:
-            "Unleash the power of QR codes with secure dynamic and static payment options. Unleash the power of QR codes with secure dynamic and static payment options. Unleash the power of QR codes with secure dynamic and static payment options. Unleash the power of QR codes with secure dynamic and static payment options. ",
+            "Scan. Pay. Done. Unlock seamless transactions with Paymanent’s QR Code Payment Suite. Whether it’s dynamic codes for real-time amounts or static codes for fixed payments, our secure and flexible solution adapts to every business scenario—enhancing speed, efficiency, and trust.",
     },
     {
         label: "Remittance",
         image: "/images/remit.png",
-        title: "Remittance",
-        description: "Transfer money instantly and securely to any bank account to another. Transfer money instantly and securely to any bank account to another. Transfer money instantly and securely to any bank account to another. Transfer money instantly and securely to any bank account to another. Transfer money instantly and securely to any bank account to another. ",
+        title: "Global Remittance Network ",
+        description: "Transfer Funds. Transcend Borders. Paymanent’s Global Remittance Network enables fast, reliable, and compliant money transfers across geographies. With a secure infrastructure and intuitive platform, we make cross-border transactions effortless—empowering financial connectivity without barriers. ",
     },
     {
         label: "Travel Booking",
         image: "/images/travel.png",
-        title: "Travel Booking",
-        description: "Book travel tickets effortlessly through your bank dashboard with our payment gateway. Book travel tickets effortlessly through your bank dashboard with our payment gateway. Book travel tickets effortlessly through your bank dashboard with our payment gateway. Book travel tickets effortlessly through your bank dashboard with our payment gateway. ",
+        title: "Smart Travel Solutions",
+        description: "Plan, Book, and Embark with Confidence. With Paymanent's seamless travel booking services, effortlessly plan and book your journeys with ease. Our intuitive platform ensures smooth and efficient travel arrangements, empowering you to focus on the adventure while we handle the details.",
     },
 ];
 
@@ -51,7 +51,7 @@ const TabSection = () => {
                                 </h5>
                                 <h2 className="title">Great benefits from Paymanent</h2>
                                 <p>
-                                    Paymanent gives you fast, flexible funding with no hidden fees—designed to meet your business needs instantly.
+                                    Paymanent gives you fast, flexible funding with no hidden fees designed to meet your business needs instantly.
                                 </p>
                             </div>
                         </div>

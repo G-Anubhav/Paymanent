@@ -11,10 +11,9 @@ const HomeBanner = () => {
                 <div className="main-content">
                   <div className="top-area section-text justify-content-center">
                     <h4 className="sub-title">Simple. Transparent. Secure</h4>
-                    <h1 className="title">Banking Solutions</h1>
+                    <h2 className="title">Smart Banking Solutions for Modern Businesses</h2>
                     <p className="xlr">
-                      Products and services designed to help you reach your
-                      financial goals.
+                      Streamline your business finances with fast, secure, and scalable digital banking solutions.
                     </p>
                   </div>
                   <div className="bottom-area">

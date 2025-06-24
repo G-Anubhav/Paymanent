@@ -101,7 +101,7 @@ const PrivacyContent = () => {
                 </div>
                 <div className="safe-data">
                   <h5>International Transfers</h5>
-                  <p>Your information may be processed or stored on servers located outside your region, including at our primary office in Pune, India. We ensure such transfers are done securely in compliance with applicable laws.</p>
+                  <p>Your information may be processed or stored on servers located outside your region, including at our primary office in Gurgaon, India. We ensure such transfers are done securely in compliance with applicable laws.</p>
                 </div>
                 <div className="safe-data">
                   <h5>Your Rights & Data Deletion</h5>
