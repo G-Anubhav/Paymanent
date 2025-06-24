@@ -12,8 +12,7 @@ const Ready = () => {
               <div className="section-text">
                 <h3 className="title">Ready to get started?</h3>
                 <p>
-                  It only takes a few minutes to register your FREE Bankio
-                  account.
+                  It only takes a few minutes to set up your FREE <br /> Paymanent account and unlock powerful digital payment tools.
                 </p>
               </div>
               <Link href="/register" className="cmn-btn">

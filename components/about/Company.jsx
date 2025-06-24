@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import groupPhoto from "/public/images/team-photo.jpg"; // Replace with your actual image
+import groupPhoto from "/public/images/team-photo.png"; // Replace with your actual image
 
 import { FaCheckCircle } from "react-icons/fa";
 
@@ -21,11 +21,11 @@ const Company = () => {
                     </Link>
                 </div>
                 <div className="company-image mb-4">
-                    <Image src={groupPhoto} alt="UnPay Team" className="img-fluid" />
+                    <Image src={groupPhoto} alt="Paymanent Team" className="img-fluid" />
                 </div>
                 <div className="company-description">
                     <p>
-                        At UnPay, we are architects of seamless financial experiences. Empowering millions of users,
+                        At Paymanent, we are architects of seamless financial experiences. Empowering millions of users,
                         we’re on a mission to help businesses of all sizes and types simplify their financial journey
                         with our tech-led business banking solutions. Committed to innovation and user-centricity,
                         we redefine the way you engage with finances.

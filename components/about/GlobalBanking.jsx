@@ -10,13 +10,12 @@ const GlobalBanking = () => {
           <div className="row justify-content-center">
             <div className="col-xl-9 col-lg-10">
               <div className="section-header text-center">
-                <h5 className="sub-title">We are a global banking company.</h5>
+                <h5 className="sub-title">We are a leading digital payments and fintech platform.</h5>
                 <h2 className="title">
-                  Our values help us set the bar for good banking high.
+                  Our values drive innovation, trust, and financial inclusion.
                 </h2>
                 <p>
-                  Our values define us. They guide us in building and improving
-                  our product, hiring teammates, and serving our customers.
+                  t Paymanent, our values guide how we build products, grow our team, and serve businesses of all sizes—ensuring secure, scalable, and accessible financial solutions for all.
                 </p>
               </div>
             </div>
