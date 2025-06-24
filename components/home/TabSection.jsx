@@ -70,13 +70,11 @@ const TabSection = () => {
                         <div className="col-lg-8">
                             <div className="section-header text-center">
                                 <h5 className="sub-title">
-                                    Why Bankio is a great financing option for you.
+                                    Why Paymanent is a great financing option for you.
                                 </h5>
-                                <h2 className="title">Great benefits from Bankio</h2>
+                                <h2 className="title">Great benefits from Paymanent</h2>
                                 <p>
-                                    Bankio CarLoan offers you the freedom to choose any vehicle on
-                                    a fixed mark-up rate facility to suit your personal
-                                    requirements
+                                    Paymanent gives you fast, flexible funding with no hidden fees—designed to meet your business needs instantly.
                                 </p>
                             </div>
                         </div>

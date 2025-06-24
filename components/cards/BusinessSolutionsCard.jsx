@@ -12,10 +12,15 @@ const BusinessSolutionsCard = ({ singleBusiness }) => {
       <div className="content">
         <h5>{title}</h5>
         <p>{desc}</p>
-        <Link href={link} className="btn-arrow">
+        {/* <Link href={link} className="btn-arrow">
           Open Account
           <Image src={arrow_right} alt="arrow" />
-        </Link>
+        </Link> */}
+        <div className="btn-area">
+          <Link href={link} className="cmn-btn">
+            Visit Service
+          </Link>
+        </div>
       </div>
     </div>
   );

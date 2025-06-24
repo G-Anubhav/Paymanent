@@ -28,9 +28,9 @@ export default function Home() {
       <AboutBusiness />
       {/* <Features /> */}
       <Numbers />
+      <BusinessSolutions />
       <Benefits />
       <FeatureBanners />
-      <BusinessSolutions />
       <TabSection />
       <Counter />
       <NetWork />

@@ -10,12 +10,11 @@ const BusinessSolutions = () => {
             <div className="col-lg-6">
               <div className="section-header text-center">
                 <h5 className="sub-title">
-                  Open your account from anywhere in the world
+                  Effortless Digital Banking at Your Fingertips
                 </h5>
                 <h2 className="title">Solutions for Every Business Need.</h2>
                 <p>
-                  Power up your business with a full-stack online bank account
-                  that fits your needs.
+                  Discover a robust suite of dSimplify payments, collections, and compliance with our secure and scalable banking infrastructure.
                 </p>
               </div>
             </div>
