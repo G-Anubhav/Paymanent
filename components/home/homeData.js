@@ -117,7 +117,7 @@ export const articles_data = [
     desc: "Morbi eget venenatis lorem, id viverra massa. Etiam congue efficitur velit vel pharetra.",
     image: blog_1,
     author: "Hans Murazik",
-    date: "03 Jan 2023",
+    date: "03 Jan 2025",
     details_link: "/",
   },
   {
@@ -126,7 +126,7 @@ export const articles_data = [
     desc: "Morbi eget venenatis lorem, id viverra massa. Etiam congue efficitur velit vel pharetra.",
     image: blog_2,
     author: "Hans Murazik",
-    date: "03 Jan 2023",
+    date: "03 Jan 2025",
     details_link: "/",
   },
   {
@@ -135,7 +135,7 @@ export const articles_data = [
     desc: "Morbi eget venenatis lorem, id viverra massa. Etiam congue efficitur velit vel pharetra.",
     image: blog_3,
     author: "Hans Murazik",
-    date: "03 Jan 2023",
+    date: "03 Jan 2025",
     details_link: "/",
   },
 ];

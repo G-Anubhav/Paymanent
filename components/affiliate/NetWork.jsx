@@ -14,7 +14,7 @@ const NetWork = () => {
                   Beloved API Banking Platform.
                 </h2>
                 <p>
-                  Crafted for ease of understanding, seamless implementation, and iterative development, our modern API banking stack prioritizes reliability and scalability at its core.
+                  Built for clarity, seamless integration, and agile growth, our modern API banking stack is engineered for unmatched reliability and effortless scalability.
                 </p>
               </div>
             </div>

@@ -15,14 +15,13 @@ const Personalized = () => {
             </div>
             <div className="col-lg-6 col-xl-5 pt-120 pb-120">
               <div className="section-text">
-                <h3 className="title">Need a Personalized Solution?</h3>
+                <h3 className="title">Need a Custom Payment Solution?</h3>
                 <p>
-                  Get in touch with us, and we will help you to create the right
-                  one for your business or personal needs.
+                  Get in touch with us, we’ll help you build the right financial tools for your business, whether you're a startup, SME, or enterprise.
                 </p>
               </div>
-              <Link href="/register" className="cmn-btn">
-                Apply for a loan
+              <Link href="/contact" className="cmn-btn">
+                Get Started with Paymanent
               </Link>
             </div>
           </div>

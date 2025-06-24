@@ -39,9 +39,9 @@ const HowItWorks = () => {
               <div className="col-md-6">
                 <div className="text-area">
                   <div className="img-area">
-                    <Image src={how_works_affiliate_1} alt="image" />
+                    <Image src={how_works_affiliate_2} alt="image" />
                   </div>
-                  <h4>Share Your Unique Referral Link With Friends</h4>
+                  <h4>Create Account & Complete Instant Digital KYC</h4>
                 </div>
               </div>
               <div className="col-md-6">
@@ -71,11 +71,10 @@ const HowItWorks = () => {
               <div className="col-md-6">
                 <div className="text-area">
                   <div className="img-area">
-                    <Image src={how_works_affiliate_2} alt="image" />
+                    <Image src={how_works_affiliate_1} alt="image" />
                   </div>
                   <h4>
-                    Your friends have to sign up and activate their Bankio
-                    Credit Card
+                    Activate Services Tailored to Your Business Needs
                   </h4>
                 </div>
               </div>
@@ -89,8 +88,7 @@ const HowItWorks = () => {
                     <Image src={how_works_affiliate_3} alt="image" />
                   </div>
                   <h4>
-                    Both you and your friend get $25 credited to your Bankio
-                    credit card balance!
+                    Track, Transact & Grow from One Smart Dashboard
                   </h4>
                 </div>
               </div>

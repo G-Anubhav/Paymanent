@@ -78,8 +78,7 @@ const Testimonials = () => {
                   Don&#39;t take our word for it, take theirs
                 </h2>
                 <p>
-                  Take a look at our past customers success stories. Our goal is
-                  to help you grow
+                  Discover how businesses are streamlining payments and scaling faster with Paymanent. Real Stories, Real Results.
                 </p>
               </div>
             </div>
@@ -94,17 +93,13 @@ const Testimonials = () => {
                   <div className="content">
                     <div className="top-content">
                       <Image src={quote} className="quote-img" alt="quote" />
-                      <h5>“I love Bankio, they&#39;re the best”</h5>
+                      <h5>Paymanent has made running my business so much easier</h5>
                       <p className="xxlr">
-                        “ It&#39;s been 2 years since I found Bankio, and
-                        it&#39;s such a relief as a small business owner to not
-                        worry about unnecessary fees. I lost my credit card
-                        once, and the service was so prompt that I was back to
-                        work the next day!
+                        “As a small business owner, managing payments used to be a headache. Since switching to Paymanent, I can handle everything from one dashboard—payouts, collections, even bill payments. It's fast, reliable, and the support team actually listens.”
                       </p>
                     </div>
                     <div className="bottom-content">
-                      <h5 className="name">Sophie Moore</h5>
+                      <h5 className="name">Aarushi Sinha</h5>
                       <span className="country">Merchant</span>
                     </div>
                   </div>
@@ -118,18 +113,14 @@ const Testimonials = () => {
                   <div className="content">
                     <div className="top-content">
                       <Image src={quote} alt="quote" />
-                      <h5>“I love Bankio, they&#39;re the best”</h5>
+                      <h5>Paymanent transformed the way we manage money</h5>
                       <p className="xxlr">
-                        “ It&#39;s been 2 years since I found Bankio, and
-                        it&#39;s such a relief as a small business owner to not
-                        worry about unnecessary fees. I lost my credit card
-                        once, and the service was so prompt that I was back to
-                        work the next day!
+                        “It&#39;s been over 2 years with Paymanent, and as a small business, it’s a relief to have fast, secure services with zero hidden fees. Their instant support made all the difference when we needed it most.”
                       </p>
                     </div>
                     <div className="bottom-content">
-                      <h5 className="name">Sophie Moore</h5>
-                      <span className="country"> United Kingdom</span>
+                      <h5 className="name">Manoj Chauhan</h5>
+                      <span className="country">Enterprise Client</span>
                     </div>
                   </div>
                 </div>
@@ -142,18 +133,14 @@ const Testimonials = () => {
                   <div className="content">
                     <div className="top-content">
                       <Image src={quote} alt="quote" />
-                      <h5>“I love Bankio, they&#39;re the best”</h5>
+                      <h5>With Paymanent, my shop became a digital service center</h5>
                       <p className="xxlr">
-                        “ It&#39;s been 2 years since I found Bankio, and
-                        it&#39;s such a relief as a small business owner to not
-                        worry about unnecessary fees. I lost my credit card
-                        once, and the service was so prompt that I was back to
-                        work the next day!
+                        “I use Paymanent for AEPS, bill payments, and money transfers right from my shop. Customers trust it, and I earn extra income daily. It&#39;s simple to use, even without much technical knowledge.”
                       </p>
                     </div>
                     <div className="bottom-content">
-                      <h5 className="name">Sophie Moore</h5>
-                      <span className="country"> United Kingdom</span>
+                      <h5 className="name">Anita Reddy</h5>
+                      <span className="country">Rural Retailer</span>
                     </div>
                   </div>
                 </div>
@@ -166,18 +153,14 @@ const Testimonials = () => {
                   <div className="content">
                     <div className="top-content">
                       <Image src={quote} alt="quote" />
-                      <h5>“I love Bankio, they&#39;re the best”</h5>
+                      <h5>The APIs are clean, fast, and well-documented</h5>
                       <p className="xxlr">
-                        “ It&#39;s been 2 years since I found Bankio, and
-                        it&#39;s such a relief as a small business owner to not
-                        worry about unnecessary fees. I lost my credit card
-                        once, and the service was so prompt that I was back to
-                        work the next day!
+                        “We integrated Paymanent’s verification and payout APIs in under a day. For a growing fintech startup like ours, having reliable infrastructure and responsive support makes a huge difference. It just works.”
                       </p>
                     </div>
                     <div className="bottom-content">
-                      <h5 className="name">Sophie Moore</h5>
-                      <span className="country"> United Kingdom</span>
+                      <h5 className="name">Tanvi Verma</h5>
+                      <span className="country"> Startup Founder</span>
                     </div>
                   </div>
                 </div>

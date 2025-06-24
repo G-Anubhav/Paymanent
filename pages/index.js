@@ -36,7 +36,7 @@ export default function Home() {
       <NetWork />
       <HowItWorks />
       <AppInfo />
-      <BankioCard />
+      {/* <BankioCard /> */}
       {/* <CallToAction /> */}
       <Planning />
       <Personalized />

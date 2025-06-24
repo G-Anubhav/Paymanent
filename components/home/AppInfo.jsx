@@ -17,26 +17,25 @@ const AppInfo = () => {
                 <span className="head-icon d-flex justify-content-center align-items-center">
                   <Image src={sheled} alt="icon" />
                 </span>
-                <h5 className="sub-title">Banking at Your Fingertips</h5>
+                <h5 className="sub-title">Payments at Your Fingertips</h5>
                 <h2 className="title">
-                  Your banking experience anytime, anywhere
+                  Your financial operations anytime, anywhere
                 </h2>
                 <p>
-                  Get your money moving with our simple to use, accessible
-                  mobile app. As good as a bank branch within your phone!
+                  Manage collections, transfers, and bill payments effortlessly with the Paymanent mobile app on the go!
                 </p>
                 <ul className="list">
                   <li className="list-item d-flex align-items-center">
                     <span className="check d-flex align-items-center justify-content-center">
                       <Image src={check} alt="icon" />
                     </span>
-                    <span>Bill Payments ,Funds Transfer ,QR payments</span>
+                    <span>Utility Bill Payments, Instant Fund Transfers, QR Payments</span>
                   </li>
                   <li className="list-item d-flex align-items-center ">
                     <span className="check d-flex align-items-center justify-content-center">
                       <Image src={check} alt="icon" />
                     </span>
-                    <span>Credit card payments and Order food</span>
+                    <span>Credit Card Payments, Order food, and Travel Bookings</span>
                   </li>
                 </ul>
               </div>
