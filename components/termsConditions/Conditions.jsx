@@ -47,7 +47,7 @@ const Conditions = () => {
                 <p>
                   1.2 Subject to your compliance with these Terms, Paymanent grants you a limited, personal, non-exclusive, non-transferable, and revocable license to access and use the Website and Services solely for lawful and personal or internal business purposes. This license does not permit you to:
                 </p>
-                <div className="my-disc-list">
+                <div className="disc-list">
                   <ul>
                     <li>
                       Download, reproduce, modify, create derivative works from, reverse engineer, decompile, disassemble, or attempt to derive the source code of the Services
@@ -112,7 +112,7 @@ const Conditions = () => {
                 <p>
                   2.13 You are prohibited from posting or transmitting any illegal, harmful, defamatory, or unauthorized content including but not limited to content that:
                 </p>
-                <div className="my-disc-list">
+                <div className="disc-list">
                   <ul>
                     <li>
                       Harms minors or promotes unlawful acts.
@@ -161,7 +161,7 @@ const Conditions = () => {
                       Your Services and transactions align with your declared and approved business activities.
                     </li>
                     <li>
-                      You will not resell, assign, or allow others to use Paymanent’s Services.
+                      You will not resell, assign, or allow others to use Paymanent&#39;s Services.
                     </li>
                     <li>
                       Your use does not involve unlawful gain or fraudulent activity.
