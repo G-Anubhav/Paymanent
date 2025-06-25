@@ -39,7 +39,7 @@
 //     console.log("Submitted Data:", finalData);
 //     alert("Thank you! Your message has been sent.");
 //   };
-  
+
 //     return (
 //       <form action="#">
 //         <div className="row">
@@ -218,7 +218,23 @@ const ContactForm = () => {
     return newErrors;
   };
 
-  const handleSubmit = (e) => {
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   const validationErrors = validate();
+  //   setErrors(validationErrors);
+
+  //   if (Object.keys(validationErrors).length === 0) {
+  //     const business =
+  //       formData.businessType === "Other"
+  //         ? formData.otherBusinessType
+  //         : formData.businessType;
+
+  //     const finalData = { ...formData, businessType: business };
+  //     console.log("Submitted Data:", finalData);
+  //     alert("Thank you! Your message has been sent.");
+  //   }
+  // };
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const validationErrors = validate();
     setErrors(validationErrors);
@@ -230,8 +246,37 @@ const ContactForm = () => {
           : formData.businessType;
 
       const finalData = { ...formData, businessType: business };
-      console.log("Submitted Data:", finalData);
-      alert("Thank you! Your message has been sent.");
+
+      try {
+        const res = await fetch("/api/contact", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(finalData),
+        });
+
+        const result = await res.json();
+
+        if (res.ok && result.success) {
+          alert("Thank you! Your message has been sent.");
+          setFormData({
+            fullName: "",
+            email: "",
+            phone: "",
+            company: "",
+            businessType: "",
+            otherBusinessType: "",
+            website: "",
+            message: "",
+          });
+        } else {
+          alert("Failed to send message. Please try again later.");
+        }
+      } catch (error) {
+        console.error("Submission error:", error);
+        alert("Something went wrong. Please try again.");
+      }
     }
   };
 
