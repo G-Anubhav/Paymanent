@@ -178,6 +178,7 @@
 //   export default ContactForm;
 
 import { useState } from "react";
+import { useRouter } from "next/router";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -191,6 +192,7 @@ const ContactForm = () => {
     message: "",
   });
 
+  const router = useRouter();
   const [errors, setErrors] = useState({});
 
   const handleChange = (e) => {
@@ -218,22 +220,6 @@ const ContactForm = () => {
     return newErrors;
   };
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   const validationErrors = validate();
-  //   setErrors(validationErrors);
-
-  //   if (Object.keys(validationErrors).length === 0) {
-  //     const business =
-  //       formData.businessType === "Other"
-  //         ? formData.otherBusinessType
-  //         : formData.businessType;
-
-  //     const finalData = { ...formData, businessType: business };
-  //     console.log("Submitted Data:", finalData);
-  //     alert("Thank you! Your message has been sent.");
-  //   }
-  // };
   const handleSubmit = async (e) => {
     e.preventDefault();
     const validationErrors = validate();
@@ -259,7 +245,6 @@ const ContactForm = () => {
         const result = await res.json();
 
         if (res.ok && result.success) {
-          alert("Thank you! Your message has been sent.");
           setFormData({
             fullName: "",
             email: "",
@@ -270,7 +255,9 @@ const ContactForm = () => {
             website: "",
             message: "",
           });
-        } else {
+          router.push("/thank-you");
+        }
+        else {
           alert("Failed to send message. Please try again later.");
         }
       } catch (error) {

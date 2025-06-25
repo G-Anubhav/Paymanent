@@ -1,4 +1,3 @@
-// /pages/api/contact.js
 import nodemailer from "nodemailer";
 
 export default async function handler(req, res) {
@@ -9,9 +8,8 @@ export default async function handler(req, res) {
     const { fullName, email, phone, company, businessType, website, message } = req.body;
 
     try {
-        // Set up transporter for mail.one.com
         const transporter = nodemailer.createTransport({
-            host: "send.one.com", // mail.one.com uses smtp.one.com
+            host: "send.one.com",
             port: 465,
             secure: true,
             auth: {
@@ -20,10 +18,9 @@ export default async function handler(req, res) {
             },
         });
 
-        // Email content
         const mailOptions = {
             from: '"Paymanent.com Website" <anubhav.goyel@fsixit.com>',
-            to: "anubhav.goyel@fsixit.com",
+            to: "info@paymanent.com",
             subject: `New Lead - Contact Form Submission from Paymanent.com`,
             html: `
         <h3>Contact Form Details</h3>
