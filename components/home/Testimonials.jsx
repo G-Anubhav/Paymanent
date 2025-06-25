@@ -95,7 +95,7 @@ const Testimonials = () => {
                       <Image src={quote} className="quote-img" alt="quote" />
                       <h5>Paymanent has made running my business so much easier</h5>
                       <p className="xxlr">
-                        “As a small business owner, managing payments used to be a headache. Since switching to Paymanent, I can handle everything from one dashboard—payouts, collections, even bill payments. It's fast, reliable, and the support team actually listens.”
+                        “As a small business owner, managing payments used to be a headache. Since switching to Paymanent, I can handle everything from one dashboard—payouts, collections, even bill payments. It&#39;s fast, reliable, and the support team actually listens.”
                       </p>
                     </div>
                     <div className="bottom-content">

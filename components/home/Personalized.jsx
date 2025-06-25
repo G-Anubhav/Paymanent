@@ -17,7 +17,7 @@ const Personalized = () => {
               <div className="section-text">
                 <h3 className="title">Need a Custom Payment Solution?</h3>
                 <p>
-                  Get in touch with us, we’ll help you build the right financial tools for your business, whether you're a startup, SME, or enterprise.
+                  Get in touch with us, we&#39;ll help you build the right financial tools for your business, whether you&#39;re a startup, SME, or enterprise.
                 </p>
               </div>
               <Link href="/contact" className="cmn-btn">

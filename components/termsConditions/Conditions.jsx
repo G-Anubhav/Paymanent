@@ -17,19 +17,19 @@ const Conditions = () => {
                   This document is an electronically generated agreement under the provisions of Rule 3 of the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021, read in conjunction with the Information Technology Act, 2000. Being a digital record, it does not require any physical or digital signatures.
                 </p>
                 <p>
-                  These Terms and Conditions (the "Terms") govern your use of the website https://www.paymanent.in (the "Website") and any related pages, APIs, features, content, or application services (including but not limited to mobile applications or mobile versions of the website), all of which are owned and operated by F6 IT Service Private Limited, the parent company of Paymanent. Throughout these Terms, references to “Company,” “we,” “us,” or “our” shall mean F6 IT Service Private Limited, and “you,” “your,” “user,” or “merchant” shall mean any person or legal entity accessing or using our platform, whether registered or unregistered.
+                  These Terms and Conditions (the "Terms") govern your use of the website https://www.paymanent.in (the &quot;Website&quot;) and any related pages, APIs, features, content, or application services (including but not limited to mobile applications or mobile versions of the website), all of which are owned and operated by F6 IT Service Private Limited, the parent company of Paymanent. Throughout these Terms, references to &quot;&quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot; shall mean F6 IT Service Private Limited, and &quot;you,&quot; &quot;your,&quot; &quot;user,&quot; or &quot;merchant&quot; shall mean any person or legal entity accessing or using our platform, whether registered or unregistered.
                 </p>
                 <p>
-                  "Applicable Laws" refer to:
+                  &quot;Applicable Laws&quot; refer to:
                 </p>
                 <ul>
                   <li>
                     (i) all relevant statutes, rules, regulations, notifications, guidelines, circulars, and judicial or administrative decisions issued by central, state, or local authorities in India or having jurisdiction, and
                   </li>
-                  <li>(ii) directives or notices issued by relevant financial regulators, such as the Reserve Bank of India (RBI), the National Payments Corporation of India (NPCI) (including NPCI’s published documents at https://www.npci.org.in), and other regulatory bodies as amended from time to time.</li>
+                  <li>(ii) directives or notices issued by relevant financial regulators, such as the Reserve Bank of India (RBI), the National Payments Corporation of India (NPCI) (including NPCI&#39;s published documents at https://www.npci.org.in), and other regulatory bodies as amended from time to time.</li>
                 </ul>
                 <p>
-                  Before using the Website or any of the products or services (collectively, the “Services”) offered through Paymanent, it is important that you read and understand these Terms, along with our Privacy Policy and any applicable Special Terms of Use, thoroughly. By accessing or using the Services offered by us or through our associated banks, financial partners, technology providers, or payment networks, you acknowledge and agree to be bound by these Terms from the moment you start using the platform.
+                  Before using the Website or any of the products or services (collectively, the &quot;Services&quot;) offered through Paymanent, it is important that you read and understand these Terms, along with our Privacy Policy and any applicable Special Terms of Use, thoroughly. By accessing or using the Services offered by us or through our associated banks, financial partners, technology providers, or payment networks, you acknowledge and agree to be bound by these Terms from the moment you start using the platform.
                 </p>
                 <p>
                   Your continued use of the Services will be considered your acceptance of any updates or changes to these Terms. We recommend visiting this page regularly to review the most current version. If you disagree with any part of these Terms or the Privacy Policy, or any amendments made later, your only option is to immediately discontinue use of the Website.

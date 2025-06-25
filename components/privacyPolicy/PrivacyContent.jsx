@@ -121,7 +121,7 @@ const PrivacyContent = () => {
                 </div>
                 <div className="safe-data">
                   <h5>Updates to This Policy</h5>
-                  <p>We may periodically revise this Privacy Policy. Any changes will be posted here along with a revised "Last Updated" date. Continued use of the Service after changes constitutes acceptance.</p>
+                  <p>We may periodically revise this Privacy Policy. Any changes will be posted here along with a revised 	&quot;Last Updated&quot; date. Continued use of the Service after changes constitutes acceptance.</p>
                 </div>
                 <div className="cookies">
                   <h4>Contact Us</h4>
