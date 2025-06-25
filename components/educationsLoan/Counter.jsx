@@ -5,10 +5,10 @@ const Counter = () => {
     <LoanCounter
       title=" We believe you are more than a number."
       btnText="Apply for Payment Gateway"
-      link="/#educations-loan-form"
-      loans_given={100}
-      customers_served={15000}
-      countries={150}
+      link="/contact"
+      loans_given={500}
+      customers_served={2000}
+      countries={95}
     />
   );
 };

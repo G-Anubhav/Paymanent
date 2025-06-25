@@ -27,19 +27,22 @@ const LoanCounter = ({
               <div className="counter-area mb-60 d-flex align-items-center justify-content-between">
                 <div className="single">
                   <h3>
-                    <span className="counter">{loans_given}</span>M+
+                    <span className="counter">{loans_given}</span>K+
                   </h3>
-                  <p>Loans Given</p>
+                  <p>Businesses Onboarded</p>
                 </div>
                 <div className="single">
                   <h3>
                     <span className="counter">{customers_served}</span>+
                   </h3>
-                  <p>Customers Served</p>
+                  <p>APIs Integrated & Deployed</p>
                 </div>
                 <div className="single">
-                  <h3 className="counter">{countries}</h3>
-                  <p>Countries</p>
+                  {/* <h3 className="counter">{countries}</h3> */}
+                  <h3>
+                    <span className="counter">{countries}</span>+
+                  </h3>
+                  <p>Banking Partners</p>
                 </div>
               </div>
               <div className="btn-area">

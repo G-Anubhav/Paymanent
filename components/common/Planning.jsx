@@ -10,18 +10,16 @@ const Planning = () => {
           <div className="row d-flex justify-content-center">
             <div className="col-xl-6 col-lg-5">
               <div className="section-text">
-                <h5 className="sub-title">Financial Planning</h5>
+                <h5 className="sub-title">Your Paymanets Planner</h5>
                 <h2 className="title">
-                  Let&#39;s plan your finances the right way
+                    Smart Financial Infrastructure for Smarter Businesses
                 </h2>
                 <p>
-                  Lending that doesn&#39;t weigh you down.We know how hard is it
-                  to start something new, that’s why we have the perfect plan
-                  for you.
+                  Effortless banking and payment tools tailored for today&#39;s digital-first businesses. Whether you&#39;re a startup or an enterprise, we help streamline operations, reduce costs, and boost efficiency through our unified platform.
                 </p>
               </div>
               <Link href="/register" className="cmn-btn">
-                Apply for a loan
+                Paymanent Today
               </Link>
             </div>
             <div className="col-xl-6 col-lg-7">
