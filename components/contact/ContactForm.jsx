@@ -1,70 +1,374 @@
+// import { useState } from "react";
+
+// const ContactForm = () => {
+//   const [formData, setFormData] = useState({
+//     fullName: "",
+//     email: "",
+//     phone: "",
+//     company: "",
+//     businessType: "",
+//     otherBusinessType: "",
+//     website: "",
+//     message: "",
+//   });
+
+//   const handleChange = (e) => {
+//     setFormData((prev) => ({
+//       ...prev,
+//       [e.target.name]: e.target.value,
+//     }));
+//   };
+
+//   const handleBusinessChange = (e) => {
+//     const value = e.target.value;
+//     setFormData((prev) => ({
+//       ...prev,
+//       businessType: value,
+//       otherBusinessType: value === "Other" ? "" : "", // Reset other input
+//     }));
+//   };
+
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     const business =
+//       formData.businessType === "Other"
+//         ? formData.otherBusinessType
+//         : formData.businessType;
+
+//     const finalData = { ...formData, businessType: business };
+//     console.log("Submitted Data:", finalData);
+//     alert("Thank you! Your message has been sent.");
+//   };
+  
+//     return (
+//       <form action="#">
+//         <div className="row">
+//           <div className="col-6">
+//             <div className="single-input">
+//               <label htmlFor="name">Full Name <span className="asterick"> *</span></label>
+//               <input
+//                 type="text"
+//                 id="name"
+//                 placeholder="Enter full name"
+//                 required
+//               />
+//             </div>
+//           </div>
+//           <div className="col-6">
+//             <div className="single-input">
+//               <label htmlFor="email">Email <span className="asterick"> *</span></label>
+//               <input
+//                 type="text"
+//                 id="email"
+//                 placeholder="Enter email"
+//                 required
+//               />
+//             </div>
+//           </div>
+//         </div>
+//         <div className="row">
+//           <div className="col-6">
+//             <div className="single-input">
+//               <label htmlFor="phone">Phone <span className="asterick"> *</span></label>
+//               <input
+//                 type="text"
+//                 id="phone"
+//                 placeholder="000-000-0000"
+//                 required
+//               />
+//             </div>
+//           </div>
+//           <div className="col-6">
+//             <div className="single-input">
+//               <label htmlFor="loan">Company Name <span className="asterick"> *</span></label>
+//               <input
+//                 type="text"
+//                 id="company"
+//                 placeholder="Enter firm name"
+//                 required
+//               />
+//             </div>
+//           </div>
+//         </div>
+//         <div className="row">
+//           {/* <div className="col-6">
+//           <div className="single-input">
+//             <label htmlFor="phone">Type of Business</label>
+//             <input
+//               type="text"
+//               id="loan"
+//               placeholder="Enter business type"
+//               required
+//             />
+//           </div>
+//         </div> */}
+//           <div className="row">
+//             <div className="col-6">
+//               <div className="single-input">
+//                 <label htmlFor="businessType">Type of Business</label>
+//                 <select
+//                   id="businessType"
+//                   name="businessType"
+//                   value={formData.businessType}
+//                   onChange={handleBusinessChange}
+//                 >
+//                   <option value="">Select your business type</option>
+//                   <option value="Credit Cooperative Society">Credit Cooperative Society</option>
+//                   <option value="Credit Cooperative Bank">Credit Cooperative Bank</option>
+//                   <option value="Nidhi Bank">Nidhi Bank</option>
+//                   <option value="Other">Other</option>
+//                 </select>
+//               </div>
+//             </div>
+//             {formData.businessType === "Other" && (
+//               <div className="col-6">
+//                 <div className="single-input">
+//                   <label htmlFor="otherBusinessType">Specify Business Type</label>
+//                   <input
+//                     type="text"
+//                     id="otherBusinessType"
+//                     name="otherBusinessType"
+//                     placeholder="Enter your business type"
+//                     value={formData.otherBusinessType}
+//                     onChange={handleChange}
+//                   />
+//                 </div>
+//               </div>
+//             )}
+//           </div>
+//         </div>
+//         <div className="row">
+//           <div className="col-6">
+//             <div className="single-input">
+//               <label htmlFor="loan">Website Link (if applicale)</label>
+//               <input
+//                 type="text"
+//                 id="website"
+//                 placeholder="Enter website"
+//               />
+//             </div>
+//           </div>
+//           <div className="col-6">
+//             <div className="single-input">
+//               <label htmlFor="message">Message</label>
+//               {/* <textarea
+//                 id="message"
+//                 placeholder="I would like to get in touch with you..."
+//                 cols="30"
+//                 rows="10"
+//                 required
+//               ></textarea> */}
+//               <input
+//                 type="message"
+//                 id="message"
+//                 placeholder="Enter firm name"
+//               />
+//             </div>
+//           </div>
+//         </div>
+//         <div className="btn-area text-center">
+//           <button type={"button"} className="cmn-btn">
+//             Send Message
+//           </button>
+//         </div>
+//       </form>
+//     );
+//   };
+
+//   export default ContactForm;
+
+import { useState } from "react";
+
 const ContactForm = () => {
+  const [formData, setFormData] = useState({
+    fullName: "",
+    email: "",
+    phone: "",
+    company: "",
+    businessType: "",
+    otherBusinessType: "",
+    website: "",
+    message: "",
+  });
+
+  const [errors, setErrors] = useState({});
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+    setErrors((prev) => ({ ...prev, [name]: "" })); // Clear error on change
+  };
+
+  const handleBusinessChange = (e) => {
+    const value = e.target.value;
+    setFormData((prev) => ({
+      ...prev,
+      businessType: value,
+      otherBusinessType: "",
+    }));
+    setErrors((prev) => ({ ...prev, businessType: "" }));
+  };
+
+  const validate = () => {
+    const newErrors = {};
+    if (!formData.fullName.trim()) newErrors.fullName = "Full name is required.";
+    if (!formData.email.trim()) newErrors.email = "Email is required.";
+    if (!formData.phone.trim()) newErrors.phone = "Phone number is required.";
+    if (!formData.company.trim()) newErrors.company = "Company name is required.";
+    return newErrors;
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const validationErrors = validate();
+    setErrors(validationErrors);
+
+    if (Object.keys(validationErrors).length === 0) {
+      const business =
+        formData.businessType === "Other"
+          ? formData.otherBusinessType
+          : formData.businessType;
+
+      const finalData = { ...formData, businessType: business };
+      console.log("Submitted Data:", finalData);
+      alert("Thank you! Your message has been sent.");
+    }
+  };
+
   return (
-    <form action="#">
+    <form onSubmit={handleSubmit}>
       <div className="row">
         <div className="col-6">
           <div className="single-input">
-            <label htmlFor="name">Name</label>
+            <label htmlFor="fullName">Full Name <span className="asterick">*</span></label>
             <input
               type="text"
-              id="name"
-              placeholder="What's your name?"
-              required
+              id="fullName"
+              name="fullName"
+              value={formData.fullName}
+              onChange={handleChange}
+              placeholder="Enter full name"
             />
+            {errors.fullName && <span className="error">{errors.fullName}</span>}
           </div>
         </div>
+
         <div className="col-6">
           <div className="single-input">
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email">Email <span className="asterick">*</span></label>
             <input
-              type="text"
+              type="email"
               id="email"
-              placeholder="What's your email?"
-              required
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              placeholder="Enter email"
             />
+            {errors.email && <span className="error">{errors.email}</span>}
           </div>
         </div>
       </div>
+
       <div className="row">
         <div className="col-6">
           <div className="single-input">
-            <label htmlFor="phone">Phone</label>
+            <label htmlFor="phone">Phone <span className="asterick">*</span></label>
             <input
               type="text"
               id="phone"
-              placeholder="(123) 480 - 3540"
-              required
+              name="phone"
+              value={formData.phone}
+              onChange={handleChange}
+              placeholder="000-000-0000"
             />
+            {errors.phone && <span className="error">{errors.phone}</span>}
           </div>
         </div>
+
         <div className="col-6">
           <div className="single-input">
-            <label htmlFor="loan">Service interested in</label>
+            <label htmlFor="company">Company Name <span className="asterick">*</span></label>
             <input
               type="text"
-              id="loan"
-              placeholder="Ex. Auto Loan, Home Loan"
-              required
+              id="company"
+              name="company"
+              value={formData.company}
+              onChange={handleChange}
+              placeholder="Enter firm name"
+            />
+            {errors.company && <span className="error">{errors.company}</span>}
+          </div>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col-6">
+          <div className="single-input">
+            <label htmlFor="businessType">Type of Business</label>
+            <select
+              id="businessType"
+              name="businessType"
+              value={formData.businessType}
+              onChange={handleBusinessChange}
+            >
+              <option value="">Select your business type</option>
+              <option value="Credit Cooperative Society">Credit Cooperative Society</option>
+              <option value="Credit Cooperative Bank">Credit Cooperative Bank</option>
+              <option value="Nidhi Bank">Nidhi Bank</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+        </div>
+
+        {formData.businessType === "Other" && (
+          <div className="col-6">
+            <div className="single-input">
+              <label htmlFor="otherBusinessType">Specify Business Type</label>
+              <input
+                type="text"
+                id="otherBusinessType"
+                name="otherBusinessType"
+                value={formData.otherBusinessType}
+                onChange={handleChange}
+                placeholder="Enter your business type"
+              />
+            </div>
+          </div>
+        )}
+      </div>
+
+      <div className="row">
+        <div className="col-6">
+          <div className="single-input">
+            <label htmlFor="website">Website Link (if applicable)</label>
+            <input
+              type="text"
+              id="website"
+              name="website"
+              value={formData.website}
+              onChange={handleChange}
+              placeholder="Enter website"
+            />
+          </div>
+        </div>
+
+        <div className="col-6">
+          <div className="single-input">
+            <label htmlFor="message">Message</label>
+            <input
+              type="text"
+              id="message"
+              name="message"
+              value={formData.message}
+              onChange={handleChange}
+              placeholder="I would like to get in touch with you..."
             />
           </div>
         </div>
       </div>
-      <div className="row">
-        <div className="col-12">
-          <div className="single-input">
-            <label htmlFor="message">Message</label>
-            <textarea
-              id="message"
-              placeholder="I would like to get in touch with you..."
-              cols="30"
-              rows="10"
-              required
-            ></textarea>
-          </div>
-        </div>
-      </div>
+
       <div className="btn-area text-center">
-        <button type={"button"} className="cmn-btn">
+        <button type="submit" className="cmn-btn">
           Send Message
         </button>
       </div>
