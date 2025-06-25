@@ -26,7 +26,7 @@ const Company = () => {
                 <div className="company-description">
                     <p>
                         At Paymanent, we are architects of seamless financial experiences. Empowering millions of users,
-                        we’re on a mission to help businesses of all sizes and types simplify their financial journey
+                        we&#39;re on a mission to help businesses of all sizes and types simplify their financial journey
                         with our tech-led business banking solutions. Committed to innovation and user-centricity,
                         we redefine the way you engage with finances.
                     </p>
