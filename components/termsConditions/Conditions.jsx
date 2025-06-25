@@ -19,7 +19,7 @@ const Conditions = () => {
                 <p>
                   These Terms and Conditions (the "Terms") govern your use of the website https://www.paymanent.in (the "Website") and any related pages, APIs, features, content, or application services (including but not limited to mobile applications or mobile versions of the website), all of which are owned and operated by F6 IT Service Private Limited, the parent company of Paymanent. Throughout these Terms, references to “Company,” “we,” “us,” or “our” shall mean F6 IT Service Private Limited, and “you,” “your,” “user,” or “merchant” shall mean any person or legal entity accessing or using our platform, whether registered or unregistered.
                 </p>
-                {/* <p>
+                <p>
                   "Applicable Laws" refer to:
                 </p>
                 <ul>
@@ -50,16 +50,16 @@ const Conditions = () => {
                 <div className="my-disc-list">
                   <ul>
                     <li>
-                      Download, reproduce, modify, create derivative works from, reverse engineer, decompile, disassemble, or attempt to derive the source code of the Services;
+                      Download, reproduce, modify, create derivative works from, reverse engineer, decompile, disassemble, or attempt to derive the source code of the Services
                     </li>
                     <li>
-                      Sell, distribute, sublicense, assign, lease, or otherwise transfer your rights to the Services;
+                      Sell, distribute, sublicense, assign, lease, or otherwise transfer your rights to the Services
                     </li>
                     <li>
-                      Use or reproduce any trademarks, logos, service marks, trade names, or domain names belonging to Paymanent or F6 IT Service Private Limited without prior written consent;
+                      Use or reproduce any trademarks, logos, service marks, trade names, or domain names belonging to Paymanent or F6 IT Service Private Limited without prior written consent
                     </li>
                     <li>
-                      Remove, obscure, or alter any proprietary notices (including copyright and trademark notices) incorporated in or accompanying the Services;
+                      Remove, obscure, or alter any proprietary notices (including copyright and trademark notices) incorporated in or accompanying the Services
                     </li>
                     <li>
                       Copy, distribute, or transmit any part of the Services without express written authorization.
@@ -115,16 +115,16 @@ const Conditions = () => {
                 <div className="my-disc-list">
                   <ul>
                     <li>
-                      Harms minors or promotes unlawful acts;
+                      Harms minors or promotes unlawful acts.
                     </li>
                     <li>
-                      Infringes on third-party IP rights;
+                      Infringes on third-party IP rights.
                     </li>
                     <li>
-                      Includes malware or harmful code;
+                      Includes malware or harmful code.
                     </li>
                     <li>
-                      Violates public order or national interest;
+                      Violates public order or national interest.
                     </li>
                     <li>
                       Involves impersonation;
@@ -147,7 +147,7 @@ const Conditions = () => {
                       Your acceptance of these Terms is legally binding.
                     </li>
                     <li>
-                      Violates public order or national interest;
+                      Violates public order or national interest.
                     </li>
                     <li>
                       You will not use the Services for any virtual currency, cryptocurrency, NFTs, or related activities. Violating this clause may lead to termination of Services and legal indemnification to Paymanent.
@@ -172,7 +172,7 @@ const Conditions = () => {
                 </ul>
                 </div>
 
-                <div className="safe-data">
+                {/* <div className="safe-data">
                   <h4>
                     Your data is safe with us, we will not share any information
                     with external sources.
