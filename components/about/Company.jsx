@@ -11,9 +11,9 @@ const Company = () => {
                 <div className="company-header d-flex justify-content-between align-items-start flex-wrap mb-4">
                     <div className="company-text">
                         <p className="company-subtitle">OUR COMPANY</p>
-                        <h2 className="company-title">Built for businesses of all sizes.</h2>
+                        <h2 className="company-title">Built for scale. Designed for impact.</h2>
                         <p className="company-subtext">
-                            India’s largest Neo Banking platform delivering full stack banking services to individuals and businesses of all sizes.
+                            Paymanent is India’s leading Neo Banking platform, offering an end-to-end financial infrastructure tailored for startups, MSMEs, enterprises.
                         </p>
                     </div>
                     <Link href="/#business-loan-form" className="cmn-btn">
@@ -35,15 +35,15 @@ const Company = () => {
                 <div className="company-certifications d-flex flex-wrap gap-4 mt-4">
                     <div className="cert-item">
                         <FaCheckCircle className="icon" />
-                        <span>ISO 27001 Certified</span>
+                        <span>Secure API Gateway with Rate Limiting & Tokenization</span>
                     </div>
                     <div className="cert-item">
                         <FaCheckCircle className="icon" />
-                        <span>256–bit SSL Secured Data Transmission</span>
+                        <span>2-Factor Authentication (2FA) </span>
                     </div>
                     <div className="cert-item">
                         <FaCheckCircle className="icon" />
-                        <span>2FA Secured Transactions</span>
+                        <span>PCI-DSS Certified Infrastructure</span>
                     </div>
                 </div>
             </div>
