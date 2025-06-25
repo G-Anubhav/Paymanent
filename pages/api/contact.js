@@ -19,7 +19,7 @@ export default async function handler(req, res) {
         });
 
         const mailOptions = {
-            from: '"Paymanent.com Website" <anubhav.goyel@fsixit.com>',
+            from: '"Paymanent.com Website" <info@paymanent.com>',
             to: "info@paymanent.com",
             subject: `New Lead - Contact Form Submission from Paymanent.com`,
             html: `
