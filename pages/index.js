@@ -40,8 +40,8 @@ export default function Home() {
       {/* <CallToAction /> */}
       <Planning />
       <Personalized />
-      <Testimonials />
-      <LatestArticles />
+      {/* <Testimonials /> */}
+      {/* <LatestArticles /> */}
       <Faq />
       <GetInTouch />
     </>
