@@ -58,20 +58,22 @@ const Feature = () => {
 
   return (
     <section className="more-feature">
-      <div className="overlay pt-60 pb-120">
+      <div className="overlay pt-60 pb-60">
         <div className="container wow fadeInUp">
           <div className="row">
             <Slider {...settings} className="feature-carousel">
-              {[...Array(3)].map((_, i) => (
+              {[...Array(1)].map((_, i) => (
                 <div key={i} className="single-item">
                   <div className="single">
                     <div className="text-start">
+                      <h5 className="sub-title">
+                        Effortless Digital Payments, Backed by Bank-Grade Security
+                      </h5>
                       <h2 className="title">
-                        Our trust is built on your security
+                        Your trust is our foundation. Your data, our responsibility.
                       </h2>
                       <p>
-                        We keep your money safe with FDIC Insurance worth up to
-                        $250,000 through our partner bank.
+                        We&#39;ve built Paymanent on security-first principles so every transaction, every API call, and every financial interaction is protected with military-grade encryption, multi-layer authentication, and real-time threat monitoring.
                       </p>
                     </div>
                     <div className="img-center">
