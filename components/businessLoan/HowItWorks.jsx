@@ -12,7 +12,7 @@ import how_works_44 from "/public/images/icon/how-works-44.png";
 
 const HowItWorks = () => {
   return (
-    <section className="financial-planning how-works-business">
+    <section className="financial-planning how-works-business" id="ourProcess">
       <div className="overlay pt-120 pb-120">
         <div className="container">
           <div className="row">

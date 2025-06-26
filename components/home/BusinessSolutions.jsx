@@ -3,7 +3,7 @@ import { business_solutions_data } from "./homeData";
 
 const BusinessSolutions = () => {
   return (
-    <section className="solutions-business">
+    <section className="solutions-business" id="services">
       <div className="overlay pt-120">
         <div className="container wow fadeInUp">
           <div className="row justify-content-center">

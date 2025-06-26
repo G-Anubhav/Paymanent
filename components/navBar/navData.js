@@ -109,22 +109,22 @@ export const navData = [
       {
         id: "du@01s",
         dp_itm: "About Company",
-        url: "/affiliate",
+        url: "/about",
       },
       {
         id: "du@03s",
         dp_itm: "Partners",
-        url: "/remittance",
+        url: "/contact",
       },
       {
         id: "du@03s",
         dp_itm: "Blogs",
-        url: "/remittance",
+        url: "/contact",
       },
       {
         id: "du@04s",
         dp_itm: "Careers",
-        url: "/career-single",
+        url: "/contact",
       },
       {
         id: "du@05s",

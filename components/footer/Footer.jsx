@@ -23,7 +23,7 @@ const Footer = () => {
                 <Image src={Logo} alt="logo" />
               </Link>
               <p>
-                A modern, technology-first bank built for you and your growing
+                A modern, technology-first payment platform built for you and your growing
                 business.
               </p>
               <div className="contact-info">
@@ -53,10 +53,10 @@ const Footer = () => {
                 {/* Socials links here */}
                 <Social
                   items={[
-                    [FaFacebookF, "/"],
-                    [FaTwitter, "/"],
-                    [FaLinkedinIn, "/"],
-                    [FaInstagram, "/"],
+                    [FaFacebookF, "#"],
+                    [FaTwitter, "#"],
+                    [FaLinkedinIn, "#"],
+                    [FaInstagram, "#"],
                   ]}
                 />
               </div>
@@ -70,10 +70,22 @@ const Footer = () => {
                   <Link href="/about">About Us</Link>
                 </li>
                 <li>
+                  <Link href="/about">Partners</Link>
+                </li>
+                <li>
                   <Link href="/about">Awards</Link>
                 </li>
                 <li>
-                  <Link href="/career-single">Careers</Link>
+                  <Link href="/contact">Careers</Link>
+                </li>
+                <li>
+                  <Link href="/contact">Blogs</Link>
+                </li>
+                <li>
+                  <Link href="/contact">Sign up</Link>
+                </li>
+                <li>
+                  <Link href="/contact">Log in</Link>
                 </li>
               </ul>
             </div>
@@ -83,16 +95,19 @@ const Footer = () => {
               <h5>Useful Links</h5>
               <ul className="footer-link">
                 <li>
-                  <Link href="/product">Products</Link>
+                  <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <Link href="/business-loan">Business Loan</Link>
+                  <Link href="/about">About Us</Link>
                 </li>
                 <li>
-                  <Link href="/affiliate">Affiliate Program</Link>
+                  <Link href="/#services">Products</Link>
                 </li>
                 <li>
-                  <Link href="/blog-list">Blog</Link>
+                  <Link href="/about">Company</Link>
+                </li>
+                <li>
+                  <Link href="/about#ourProcess">Our Process</Link>
                 </li>
               </ul>
             </div>
@@ -101,14 +116,20 @@ const Footer = () => {
             <div className="footer-box">
               <h5>Support</h5>
               <ul className="footer-link">
-                <li>
+                {/* <li>
                   <Link href="mailto:info@paymanent.com">info@paymanent.com</Link>
-                </li>
+                </li> */}
                 <li>
                   <Link href="/contact">Contact Us</Link>
                 </li>
                 <li>
                   <Link href="/faqs">FAQ</Link>
+                </li>
+                <li>
+                  <Link href="/privacy-policy">Privacy Policy</Link>
+                </li>
+                <li>
+                  <Link href="/terms-conditions">Terms & Conditions</Link>
                 </li>
               </ul>
             </div>
