@@ -23,11 +23,11 @@ export default function InstantPayouts() {
       <AboutService />
       <ServiceIntro {...data} />
       <Features />
-      <CreditHistory />
+      {/* <CreditHistory /> */}
       <HowItWorks />
       <Counter />
-      <Testimonials />
-      <LatestArticles />
+      {/* <Testimonials /> */}
+      {/* <LatestArticles /> */}
       <Faq />
       <GetInTouch />
     </>

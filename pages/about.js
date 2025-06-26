@@ -16,13 +16,13 @@ export default function About() {
     <>
       <Banner />
       <Hero />
-      <Partners />
+      {/* <Partners /> */}
       <CoreValues />
-      <Company />
+      {/* <Company /> */}
       <GlobalBanking />
       <Feature />
       <HowItWorks />
-      <OurJourney />
+      {/* <OurJourney /> */}
       {/* <Team /> */}
       {/* <Career /> */}
       <GetInTouch />

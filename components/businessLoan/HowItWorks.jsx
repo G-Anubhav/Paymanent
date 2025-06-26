@@ -18,11 +18,10 @@ const HowItWorks = () => {
           <div className="row">
             <div className="col-xl-6 col-lg-7 wow fadeInUp">
               <div className="section-header">
-                <h5 className="sub-title">A Better Way to Get Loan</h5>
+                <h5 className="sub-title">A Better Way to Go Live with Paymanent</h5>
                 <h2 className="title">How it works</h2>
                 <p>
-                  It&#39;s easier than you think. Follow the following simple
-                  easy steps
+                  It&#39;s fast, secure, and fully digital. Here’s how businesses onboard with us in just a few simple steps:
                 </p>
               </div>
               <div className="mb-60">
@@ -37,9 +36,9 @@ const HowItWorks = () => {
                         />
                         <Image src={how_works_11} alt="icon" className="alt" />
                       </div>
-                      <h5>1. Fill the form</h5>
+                      <h5>1. Submit Business Details</h5>
                       <p>
-                        Fill basic information for us to get in touch with you.
+                        Tell us about your company, just basic information like business name, type, and PAN/GST.
                       </p>
                     </div>
                   </div>
@@ -53,10 +52,9 @@ const HowItWorks = () => {
                         />
                         <Image src={how_works_22} alt="icon" className="alt" />
                       </div>
-                      <h5>2. Get pre-qualified</h5>
+                      <h5>2. Verify & KYC</h5>
                       <p>
-                        Verify your ID and get on a quick video call with a loan
-                        specialist.
+                        We instantly verify your documents with our real-time API checks (PAN, Aadhaar, GST, etc.).
                       </p>
                     </div>
                   </div>
@@ -70,10 +68,9 @@ const HowItWorks = () => {
                         />
                         <Image src={how_works_33} alt="icon" className="alt" />
                       </div>
-                      <h5>3. Send documents</h5>
+                      <h5>3. Activate APIs or Dashboard</h5>
                       <p>
-                        Upload your documents on the Bankio app and get approved
-                        in
+                        Based on your business needs, get access to our API keys or business dashboard right away.
                       </p>
                     </div>
                   </div>
@@ -87,10 +84,9 @@ const HowItWorks = () => {
                         />
                         <Image src={how_works_44} alt="icon" className="alt" />
                       </div>
-                      <h5>4. Get a loan</h5>
+                      <h5>4. Start Transacting</h5>
                       <p>
-                        Make smart spending decisions on the spot. Our budgeting
-                        too
+                        Collect payments, make payouts, access reports, and scale securely—everything from one place.
                       </p>
                     </div>
                   </div>
@@ -98,7 +94,7 @@ const HowItWorks = () => {
               </div>
               <div className="btn-area">
                 <Link href="/#business-loan-form" className="cmn-btn">
-                  Apply for a business loan
+                  Paymanent Now
                 </Link>
               </div>
             </div>

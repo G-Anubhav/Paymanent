@@ -23,11 +23,11 @@ export default function UpiCollection() {
       <AboutService />
       <ServiceIntro {...data} />
       <Features />
-      <CreditHistory />
+      {/* <CreditHistory /> */}
       <HowItWorks />
       <Counter />
-      <Testimonials />
-      <LatestArticles />
+      {/* <Testimonials /> */}
+      {/* <LatestArticles /> */}
       <Faq />
       <GetInTouch />
     </>

@@ -23,11 +23,11 @@ export default function UtilityPayment() {
       <AboutService />
       <ServiceIntro {...data} />
       <Features />
-      <CreditHistory />
+      {/* <CreditHistory /> */}
       <HowItWorks />
       <Counter />
-      <Testimonials />
-      <LatestArticles />
+      {/* <Testimonials /> */}
+      {/* <LatestArticles /> */}
       <Faq />
       <GetInTouch />
     </>
