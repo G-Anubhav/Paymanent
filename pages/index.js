@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <>
       <HomeBanner />
-      <Partners />
+      {/* <Partners /> */}
       <AboutBusiness />
       {/* <Features /> */}
       <Numbers />

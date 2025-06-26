@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }) {
     return Component.getLayout(
       <>
         <Head>
-          <title>Bank - All-in-One Banking and Payment Solutions for Everyone — from Individuals to Large Enterprises</title>
+          <title>Paymanent - All-in-One Payment and Banking Solutions for Everyone — from Individuals to Large Enterprises</title>
           <meta name="description" content="All-in-one Payment Solution" />
           <link rel="icon" href="favicon.ico" />
         </Head>
@@ -25,7 +25,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Bank - All-in-One Banking and Payment Solutions for Everyone — from Individuals to Large Enterprises</title>
+        <title>Paymanent - All-in-One Payment and Banking Solutions for Everyone — from Individuals to Large Enterprises</title>
         <meta name="description" content="All-in-one Payment Solution" />
         <link rel="icon" href="favicon.ico" />
       </Head>

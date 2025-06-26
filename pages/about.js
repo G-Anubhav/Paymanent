@@ -23,8 +23,8 @@ export default function About() {
       <Feature />
       <HowItWorks />
       <OurJourney />
-      <Team />
-      <Career />
+      {/* <Team /> */}
+      {/* <Career /> */}
       <GetInTouch />
     </>
   );

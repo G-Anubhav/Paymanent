@@ -17,7 +17,7 @@ const Conditions = () => {
                   This document is an electronically generated agreement under the provisions of Rule 3 of the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021, read in conjunction with the Information Technology Act, 2000. Being a digital record, it does not require any physical or digital signatures.
                 </p>
                 <p>
-                  These Terms and Conditions (the &quot;Terms	&quot;) govern your use of the website https://www.paymanent.in (the &quot;Website&quot;) and any related pages, APIs, features, content, or application services (including but not limited to mobile applications or mobile versions of the website), all of which are owned and operated by F6 IT Service Private Limited, the parent company of Paymanent. Throughout these Terms, references to &quot;&quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot; shall mean F6 IT Service Private Limited, and &quot;you,&quot; &quot;your,&quot; &quot;user,&quot; or &quot;merchant&quot; shall mean any person or legal entity accessing or using our platform, whether registered or unregistered.
+                  These Terms and Conditions (the &quot;Terms	&quot;) govern your use of the website https://www.paymanent.in (the &quot;Website&quot;) and any related pages, APIs, features, content, or application services (including but not limited to mobile applications or mobile versions of the website), all of which are owned and operated by F6 IT Services Private Limited, the parent company of Paymanent. Throughout these Terms, references to &quot;&quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot; shall mean F6 IT Services Private Limited, and &quot;you,&quot; &quot;your,&quot; &quot;user,&quot; or &quot;merchant&quot; shall mean any person or legal entity accessing or using our platform, whether registered or unregistered.
                 </p>
                 <p>
                   &quot;Applicable Laws&quot; refer to:
@@ -42,7 +42,7 @@ const Conditions = () => {
                   1. Proprietary Rights
                 </h5>
                 <p>
-                  1.1 You acknowledge and agree that F6 IT Service Private Limited, the parent company of Paymanent, retains sole ownership of all rights, title, and interest in and to the Services, including all related intellectual property rights (whether registered or unregistered). You further understand that certain elements of the Services may be labeled as confidential and may not be disclosed without prior written permission from the Company.
+                  1.1 You acknowledge and agree that F6 IT Services Private Limited, the parent company of Paymanent, retains sole ownership of all rights, title, and interest in and to the Services, including all related intellectual property rights (whether registered or unregistered). You further understand that certain elements of the Services may be labeled as confidential and may not be disclosed without prior written permission from the Company.
                 </p>
                 <p>
                   1.2 Subject to your compliance with these Terms, Paymanent grants you a limited, personal, non-exclusive, non-transferable, and revocable license to access and use the Website and Services solely for lawful and personal or internal business purposes. This license does not permit you to:
@@ -56,7 +56,7 @@ const Conditions = () => {
                       Sell, distribute, sublicense, assign, lease, or otherwise transfer your rights to the Services
                     </li>
                     <li>
-                      Use or reproduce any trademarks, logos, service marks, trade names, or domain names belonging to Paymanent or F6 IT Service Private Limited without prior written consent
+                      Use or reproduce any trademarks, logos, service marks, trade names, or domain names belonging to Paymanent or F6 IT Services Private Limited without prior written consent
                     </li>
                     <li>
                       Remove, obscure, or alter any proprietary notices (including copyright and trademark notices) incorporated in or accompanying the Services
@@ -74,7 +74,7 @@ const Conditions = () => {
                   2. Use of the Website and Services by Users
                 </h5>
                 <p>
-                  2.1 To access and use the Website and Services offered by Paymanent, you must be at least 18 years of age and legally capable of entering into binding contracts as per applicable laws. You are responsible for maintaining the confidentiality of your login credentials and account information. Any activity carried out under your login, whether authorized by you or not, will be your responsibility. F6 IT Service Private Limited shall not be liable for unauthorized access resulting from your failure to secure your credentials.
+                  2.1 To access and use the Website and Services offered by Paymanent, you must be at least 18 years of age and legally capable of entering into binding contracts as per applicable laws. You are responsible for maintaining the confidentiality of your login credentials and account information. Any activity carried out under your login, whether authorized by you or not, will be your responsibility. F6 IT Services Private Limited shall not be liable for unauthorized access resulting from your failure to secure your credentials.
                 </p>
                 <p>
                   2.2 You agree to provide true, current, and complete information during registration and to update it as necessary. Paymanent reserves the right to suspend or terminate your access if any information is found to be false, misleading, outdated, or incomplete.

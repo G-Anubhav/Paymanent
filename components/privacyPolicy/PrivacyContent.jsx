@@ -14,7 +14,7 @@ const PrivacyContent = () => {
                   our customers.
                 </h4>
                 <p>
-                  This Privacy Policy outlines how we at <span className="highlight">Paymanent</span>, a product of <span className="highlight">F6 IT Service Private Limited</span>, collect, use, and disclose your personal information when you interact with our platform. It also explains your rights regarding that information and how applicable laws safeguard them. By using our Service, you consent to the practices described in this Privacy Policy.
+                  This Privacy Policy outlines how we at <span className="highlight">Paymanent</span>, a product of <span className="highlight">F6 IT Services Private Limited</span>, collect, use, and disclose your personal information when you interact with our platform. It also explains your rights regarding that information and how applicable laws safeguard them. By using our Service, you consent to the practices described in this Privacy Policy.
                 </p>
                 <h5>Interpretation & Key Definitions</h5>
                 <h6>Interpretation</h6>
@@ -23,7 +23,7 @@ const PrivacyContent = () => {
                 <ul>
                   <li>● <span className="highlight">Account:</span> Your personal login credentials that grant access to our Service or its specific features.</li>
                   <li>● <span className="highlight">Affiliate:</span> Any entity controlled by, controlling, or under common control with us.</li>
-                  <li>● <span className="highlight">Company:</span> Refers to F6 IT Service Private Limited, operating under the brand Paymanent, headquartered at SCO-88, 2nd Floor, Sector 12A Gurugram, Haryana 122001.</li>
+                  <li>● <span className="highlight">Company:</span> Refers to F6 IT Services Private Limited, operating under the brand Paymanent, headquartered at SCO-88, 2nd Floor, Sector 12A Gurugram, Haryana 122001.</li>
                   <li>● <span className="highlight">Cookies:</span> Small text files stored on your device by websites to record browsing behavior and enhance functionality.</li>
                   <li>● <span className="highlight">Country:</span> India.</li>
                   <li>● <span className="highlight">Device:</span> Any web-enabled equipment used to access the Service, such as smartphones, tablets, or computers.</li>
@@ -130,7 +130,7 @@ const PrivacyContent = () => {
                   </p>
                   <ul>
                     <li><span className="highlight">Email:</span> paymanent.com</li>
-                    <li><span className="highlight">Company:</span> F6 IT Service Private Limited (Paymanent)</li>
+                    <li><span className="highlight">Company:</span> F6 IT Services Private Limited (Paymanent)</li>
                     <li><span className="highlight">Address:</span> SCO-88, 2nd Floor, Sector 12A Gurugram, Haryana 122001</li>
                   </ul>
                 </div>
